@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:timers_project/bloc/timers_bloc.dart';
-import 'package:timers_project/bloc/timers_events.dart';
-import 'package:timers_project/models/timer_model.dart';
+import 'package:timers_project/features/Timer_operations/bloc/timers_bloc.dart';
+import 'package:timers_project/features/Timer_operations/bloc/timers_events.dart';
+import 'package:timers_project/features/Timer_operations/models/timer_model.dart';
 
 class AddTimerScreen extends StatefulWidget {
   const AddTimerScreen({super.key});

@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:timers_project/models/timer_model.dart';
+import 'package:timers_project/features/Timer_operations/models/timer_model.dart';
 
 class TimerRepository {
   final SharedPreferences prefs;

@@ -3,9 +3,9 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:timers_project/bloc/timers_events.dart';
-import 'package:timers_project/bloc/timers_states.dart';
-import '../repositories/timer_repository.dart';
+import 'package:timers_project/features/Timer_operations/bloc/timers_events.dart';
+import 'package:timers_project/features/Timer_operations/bloc/timers_states.dart';
+import '../../../Core/repositories/timer_repository.dart';
 
 class TimerBloc extends Bloc<TimerEvent, TimerState> {
   final TimerRepository repository;

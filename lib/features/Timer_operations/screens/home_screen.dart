@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:timers_project/bloc/timers_bloc.dart';
-import 'package:timers_project/bloc/timers_events.dart';
-import 'package:timers_project/bloc/timers_states.dart';
-import 'package:timers_project/models/timer_model.dart';
-import 'package:timers_project/screens/add_timer_screen.dart';
-import 'package:timers_project/screens/history_screen.dart';
-import 'package:timers_project/widgets/category_section.dart';
+import 'package:timers_project/features/Timer_operations/bloc/timers_bloc.dart';
+import 'package:timers_project/features/Timer_operations/bloc/timers_events.dart';
+import 'package:timers_project/features/Timer_operations/bloc/timers_states.dart';
+import 'package:timers_project/features/Timer_operations/models/timer_model.dart';
+import 'package:timers_project/features/Timer_operations/screens/add_timer_screen.dart';
+import 'package:timers_project/features/Timer_operations/screens/history_screen.dart';
+import 'package:timers_project/Comman/widgets/category_section.dart';
 
 class HomeScreen extends StatefulWidget {
   final VoidCallback onToggleTheme;
