@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:timers_project/bloc/timers_bloc.dart';
-import 'package:timers_project/bloc/timers_events.dart';
-import 'repositories/timer_repository.dart';
-import 'screens/home_screen.dart';
+import 'package:timers_project/features/Timer_operations/bloc/timers_bloc.dart';
+import 'package:timers_project/features/Timer_operations/bloc/timers_events.dart';
+import 'Core/repositories/timer_repository.dart';
+import 'features/Timer_operations/screens/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
